@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body, .wrapper{
+            height: 100%;
+        }
+        body{
+            font-family: 'Jost', sans-serif;
+        }
+        form{
+            background: gold;
+            width: 300px;
+            height: 400px;
+        }
+        .wrapper{
+            display: flex;
+        }
+        .left, .right{
+            flex: 1;
+        }
+        img, figure{
+            height: 100%;
+            width: 100%;
+        }
+        img{
+            object-fit: cover;
+        }
+        figure{
+            line-height: 0;
+        }
+        .left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right{
+            background: url(https://images.unsplash.com/photo-1659535958543-efbf6ac67f29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <form></form>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    
+</body>
+</html>
