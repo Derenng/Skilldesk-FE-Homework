@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body, .wrapper{
+            height: 100%;
+        }
+        body{
+            font-family: 'Jost', sans-serif;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .item{
+            text-align: left;
+            flex: 1;
+            padding: 0 10rem;
+        }
+        .item:nth-child(2){
+            align-self: flex-end;
+        }
+        figure{
+            line-height: 0;
+        }
+        a{
+            color: gray;
+        }
+        img{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item">
+            <figure>
+                <img src="https://via.placeholder.com/300x500" alt="">
+            </figure>
+            <h2>01/</h2>
+            <p>The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together.</p>
+            <a href="#">Read more →</a>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://via.placeholder.com/300x500" alt="">
+            </figure>
+            <h2>02/</h2>
+            <p>The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together.</p>
+            <a href="#">Read more →</a>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://via.placeholder.com/300x500" alt="">
+            </figure>
+            <h2>03/</h2>
+            <p>The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together.</p>
+            <a href="#">Read more →</a>
+        </div>
+    </div>
+</body>
+</html>
