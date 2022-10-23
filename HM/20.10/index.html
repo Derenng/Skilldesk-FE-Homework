@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body, .wrapper{
+            height: 100%;
+        }
+        body{
+            font-family: 'Jost', sans-serif;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5% 40px 5%;
+        }
+        .item{
+            width: 300px;
+        }
+        .item:nth-child(2){
+            align-self: flex-end;
+        }
+        a{
+            color: gray;
+        }
+        img{
+            width: 300px;
+            height: 500px;
+        }
+        text{
+            line-height: 1.5;
+            margin: 1rem 0;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 400;
+        }
+        h1{
+            position: absolute;
+            text-align: center;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 120px;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <h1>TRAVEL EXPERIENCE</h1>
+    <div class="wrapper">
+        <div class="item">
+            <figure>
+                <img src="https://7d9e88a8-f178-4098-bea5-48d960920605.selcdn.net/d36a8d7e-941a-4cd1-a1c1-5a3fca188962/" alt="">
+            </figure>
+            <h2>01/</h2>
+            <p class="text">The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together.</p>
+            <a href="#">Read more →</a>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1554189098-4b2ee107e736?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9" alt="">
+            </figure>
+            <h2>02/</h2>
+            <p class="text">The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together.</p>
+            <a href="#">Read more →</a>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://lirp.cdn-website.com/md/dmtmpl/c1d86d27-cb0f-40d5-9f20-a48da58d3c51/dms3rep/multi/opt/walking_on_sand_desert-591w.jpg" alt="">
+            </figure>
+            <h2>03/</h2>
+            <p class="text">The open sea, the salty breeze, the warm sun. We love travel as much as you do, so let's plan your next trip together.</p>
+            <a href="#">Read more →</a>
+        </div>
+    </div>
+</body>
+</html>
